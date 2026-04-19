@@ -5,7 +5,7 @@ from email.message import EmailMessage
 import os
 from dotenv import load_dotenv
 
-# ---------------- CONFIG ----------------
+
 load_dotenv()
 
 client = genai.Client(
