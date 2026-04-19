@@ -47,7 +47,7 @@ def generate_news(genre, articles):
     prompt = f"""
 You are a professional morning news anchor.
 
-Create a {genre.replace('_', ' ').lower()} briefing.
+Create a {genre.replace('_', ' ').lower()} briefing. Start with hello everyone and just give out the news report as text. No scenery, no extra no nothing
 
 STYLE:
 - Conversational, human, and smooth
