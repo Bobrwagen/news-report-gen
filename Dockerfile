@@ -5,4 +5,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "generate_news_report.py"]
+CMD ["python", "main.py"]
